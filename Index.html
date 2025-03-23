@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 Assignment</title>
+
+    <style>
+        body {
+            font-family: helvetica;
+            background-color: rgb(142, 182, 243);
+            text-align: center;
+            list-style: center;
+        }
+        form {
+            width: 600px;
+            margin: 30px auto;
+            padding: 30px;
+            border: 6px solid #8b0505;
+            border-radius: 7px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .roman-center-list {
+            list-style-type: lower-roman;
+            text-align: center;
+            width: fit-content; /* Adjust as needed, fit-content adapts to the element */
+            margin: auto; /* center the whole list */
+        }
+        .roman-center-list li {
+            text-align: left; /*align list items to the left, so only the list marker is centered*/
+        }
+        .center-div-margin {
+            margin: 2 auto;
+            text-align: center;
+        }
+        .center-grid {
+            display: grid;
+            place-items: center;
+            height:200px;
+            border:2px solid #8b0505;
+            border-radius: 7px;
+        }
+        h1, h2, h3 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        video, audio {
+            width:800%; /* Adjust as needed */
+            max-width: 800px; /* Optiional max width */
+            margin: 20px auto;
+            display: block;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        input[type="radio"], input[type="checkbox"] {
+            width: auto;
+            margin-right: 7px;
+        }
+        button {
+            background-color: #2824ec;
+            color: rgb(100, 223, 240);
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+     </style>   
+</head>
+<body>
+    <h1>Light & Dominion Academy</h1>
+    <p>This is the main page for the Week 2 assignment project.</p>
+
+    <h2>Ordered Lists</h2>
+    <h3>Grade Classes</h3>
+    <ol class="roman-center-list">
+        <li>Grade 1</li>
+        <li>Grade 2</li>
+        <li>Grade 3</li>
+        <li>Grade 4</li>
+        <li>Grade 5</li>
+        <li>Grade 6</li>
+        <li>Grade 7</li>
+        <li>Grade 8</li>
+        <li>Grade 9</li>
+        <li>Grade 10</li>
+        <li>Grade 11</li>
+        <li>Grade 12</li>
+    </ol>
+
+    <h2>Internal Images</h2>
+    <img src="Admin-block.jpg" alt="Image of an administrative block" height="500" width="500"><br><br>
+    <img src="School-hallways.jpg" alt="Image of a school hallway" height="600" width="600">
+
+    <h2>External Images</h2>
+    <img src="https://images.pexels.com/photos/31220282/pexels-photo-31220282/free-photo-of-group-of-teenagers-posing-in-urban-setting.jpeg?auto=compress&cs=tinysrgb&w=600"
+    alt="Image of a group of teenagers" height="500" width="600"><br><br>
+    <img src="https://images.pexels.com/photos/3992949/pexels-photo-3992949.jpeg?auto=compress&cs=tinysrgb&w=600"
+    alt="Image of a group of students in a class" height="500" width="600">
+
+    <h2>HTML Tables</h2>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Age</th>
+                <th>Address</th>
+                <th>State</th>
+                <th>Country</th>
+                <th>Parent's Mobile Number</th>
+                <th>Student's Mobile Number</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Kayla Smith</td>
+                <td>10</td>
+                <td>123, Liberty road, Queens</td>
+                <td>New York</td>
+                <td>United States of America</td>
+                <td>+1-34922000133</td>
+                <td>+1-02223453984</td>
+                <td>kaylasmith2@gmail.com</td>
+            </tr>
+            <tr>
+                <td>John Damon</td>
+                <td>13</td>
+                <td>2290, Balboa street, San Diego</td>
+                <td>Califonia</td>
+                <td>United States of America</td>
+                <td>+1-72349091100</td>
+                <td>+1-23903307315</td>
+                <td>damoncjohn@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Grace Boris</td>
+                <td>14</td>
+                <td>11, Universal road, Orlando</td>
+                <td>Florida</td>
+                <td>United States of America</td>
+                <td>+1-20794609584</td>
+                <td>+1-00229991238</td>
+                <td>graceyboris00@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Liam Geoffrey</td>
+                <td>18</td>
+                <td>999, James Ridden Road, St. Petersburg</td>
+                <td>Florida</td>
+                <td>United States of America</td>
+                <td>+1-23429034212</td>
+                <td>+1-20945139043</td>
+                <td>liamffree22@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Emily Henshaw</td>
+                <td>15</td>
+                <td>490, Lakeview road, Lakeview</td>
+                <td>Chicago</td>
+                <td>United States of America</td>
+                <td>+1-30039103389</td>
+                <td>+1-01230094584</td>
+                <td>emilyshaw@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Raphael Carter</td>
+                <td>16</td>
+                <td>220, Missaph road, Hyde Park</td>
+                <td>Chicago</td>
+                <td>United States of America</td>
+                <td>+1-21100395612</td>
+                <td>+1-20945339783</td>
+                <td>carteraraph@gmail.com</td>
+            </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Age</th>
+                    <th>Address</th>
+                    <th>State</th>
+                    <th>Country</th>
+                    <th>Parent's Mobile Number</th>
+                    <th>Student's Mobile Number</th>
+                    <th>Email</th>
+                </tr>
+                    </tfoot>
+                </table>
+        
+            <h2>HTML Forms</h2>
+            <!--Start-of-Form-->
+            <form action="" method="">
+                <label for="full_name">Full Name:</label>
+                <input type="text" id="full_name" name="full_name" required placeholder="Cory Smoulders">
+                <br><br>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="example@example.com">
+                <br><br>
+        
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" minlength="6" maxlength="15" required>
+                <br><br>
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" placeholder="Your address" required>
+                <br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required placeholder="Your phone number" required>
+                <br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+                <br><br>
+
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" value="Male"> Male
+                <input type="radio" name="gender" value="Female"> Female
+                <br><br>
+
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="">Select your country</option>
+                    <option value="usa">United States of America</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="canada">Canada</option>
+                    <option value="mexico">Mexico</option>
+                    <option value="brazil">Brazil</option>
+                    <option value="nigeria">Nigeria</option>
+                    <option value="ghana">Ghana</option>
+                    <option value="south africa">South Africa</option>
+                    <option value="sierra leone">Sierra Leone</option>
+                    <option value="kenya">Kenya</option>
+                    <option value="switzerland">Switzerland</option>
+                    <option value="italy">Italy</option>
+                </select>
+
+                <input for="interests">Interests:</label>
+                <input type="checkbox" name="interests" value="Jet Club"> Jet Club
+                <input type="checkbox" name="interests" value="Drama Club"> Drama Club
+                <input type="checkbox" name="interests" value="Music Club"> Music Club
+                <input type="checkbox" name="interests" value="Dance Club"> Dance Club
+                <input type="checkbox" name="interests" value="Martial Arts Club"> Martial Arts Club
+                <input type="checkbox" name="interests" value="Debate Club"> Debate Club
+                <input type="checkbox" name="interests" value="Chess Club"> Chess Club
+                <input type="checkbox" name="interests" value="Business Club"> Business Club
+                <input type="checkbox" name="interests" value="Basketball"> Basketball
+                <input type="checkbox" name="interests" value="Football"> Football
+                <input type="checkbox" name="interests" value="Swimming"> Swimming
+                <input type="checkbox" name="interests" value="Volleyball"> Volleyball
+                <input type="checkbox" name="interests" value="Tennis"> Tennis
+                <br><br>
+
+                <button type="submit">Register</button><br><br>
+                <button type="reset">Cancel</button>
+            </form>
+            <!--End-of-Form-->
+
+            <audio controls>
+                <source src="Lessons in the Spotlight.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <br><br>
+
+            <audio controls>
+                <source src="Rise Up and Shine.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <br><br>
+
+            <video controls width="800" height="400">
+                <source src="Light_Dominion_Academy.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+
+            <p>Note: The audio and video volumes are adjustable.</p>
+
+            <h2>External Link</h2>
+        <p>Visit <a href="https://google.com" target="_blank">Google</a></p>
+        
+        <footer>
+            <p>&copy; 2025 Light & Dominion Academy</p>
+        </footer>
+        </body>
+</html>
